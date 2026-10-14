@@ -16,7 +16,7 @@ lista_mercado.append("tomate")
 print (lista_mercado)
 
 lista_mercado.pop(0)
-lista_mercado.pop(-1)
+lista_mercado.pop(-1)   # ou lista_mercado.pop()
 
 print (lista_mercado)
 
@@ -44,7 +44,7 @@ pessoas.append("gabriela")
 
 print (pessoas) 
 
-pessoas[1] = "anônimo"
+pessoas[1] = "anônimo"  # substitui o primeiro item da lista por "anônimo"
 
 print (pessoas)
 
@@ -71,7 +71,9 @@ numeros_inteiros.append(6)
 
 print(numeros_inteiros)
 
-numeros_inteiros.pop(0)
+# (min()) - retorna o menor valor | (max()) - retorna o maior valor
+
+numeros_inteiros.remove(min(numeros_inteiros)) 
 
 print(numeros_inteiros)
 
@@ -101,7 +103,7 @@ print(c)
 
 lista_convidados = ["camila", "gabriela", "heloísa", "vânia"]
 
-nome_informado = input("informe um nome: ")
+nome_informado = input("seu nome: ")
 
 if nome_informado in lista_convidados:
     print("pode entrar!")
