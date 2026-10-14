@@ -1,4 +1,6 @@
 
+# avaliação de notas:
+
 notas = [6.0, 7.0, 2.0, 10.0]
 
 for nota in notas:
@@ -8,6 +10,8 @@ for nota in notas:
 
     else:
         print(nota, "reprovado!")
+
+# somar valores do carrinho
 
 valores_carrinho = [12.50, 30.00, 7.50]
 
